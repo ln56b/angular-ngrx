@@ -5,7 +5,7 @@ export enum EUserActions {
   GetUsers = '[User] Get Users',
   GetUsersSuccess = '[User] Get Users sucess',
   GetUser = '[User] Get User',
-  GetUserSuccess = '[User] Get User sucess'
+  GetUserSuccess = '[User] Get User success'
 }
 
 export class GetUsers implements Action {
@@ -28,4 +28,4 @@ export class GetUserSuccess implements Action {
   constructor(public payload: IUser) {}
 }
 
-export type UserActions = GetUsers | GetUsersSuccess | GetUser | GetUsersSuccess
+export type UserActions = GetUsers | GetUsersSuccess | GetUser | GetUserSuccess
